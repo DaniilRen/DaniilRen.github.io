@@ -74,7 +74,7 @@ btn6.addEventListener('click', () => {
 	}
 });
 
-Telgram.WebApp.onEvent('mainButtonClicked', () => {
+Telegram.WebApp.onEvent('mainButtonClicked', () => {
 	tg.sendData(item)
 });
 
